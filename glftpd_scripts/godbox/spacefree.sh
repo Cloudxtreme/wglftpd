@@ -20,7 +20,7 @@ min_space=300
 
 # Site device
 
-mount=/
+mount=/dev/hda1
 
     min_space=`expr $min_space \* 1024`
     if [ `df | grep $mount | awk '{print $4}'` -gt "$min_space" ] ; then

@@ -2,8 +2,8 @@ Ok, so you are getting "Failed to perform chroot()".
 This is the information Dark0n3 gave me, which helped me, and others
 who had the same problem.
 
-Edit /etc/group ( not /glftpd/etc/group ).
-Find the Wheel group. If it is not there, it wont work.
+Edit /etc/groups
+Find the Wheel group.
 
 Add the user who runs the bot there, as if it looked like:
 wheel:x:10:root
