@@ -14,10 +14,10 @@ Sharing is caring, have fun.
 
 #### HOWTO
     
-    git clone https://github.com/wuseman/glftpd
+    git clone https://github.com/wuseman/wglftpd
     cd glftpd
-    chmod +x ./wlglftpd-v2.0.sh
-    sh ./wlglftpd-v2.0.sh
+    chmod +x ./wlglftpd_install-v2.0.sh
+    sh ./wlglftpd_install-v2.0.sh
   
     That's it 
 
